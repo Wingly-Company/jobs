@@ -17,7 +17,7 @@ class AircraftResource extends JsonResource
         return [
             'id' => $this->id,
             'name' => $this->name,
-            'max_duration' => $this->max_duration,
+            'max_duration' => $this->max_duration->humanize(),
             'price' => $this->price_per_hour,
         ];
     }

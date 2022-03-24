@@ -42,7 +42,7 @@ class AircraftTest extends TestCase
                             ->where('id', 1)
                             ->where('name', 'Cessna')
                             ->where('price', 10000)
-                            ->where('max_duration', 120)
+                            ->where('max_duration', '2h')
                     )
                     ->has(
                         'aircraft.1',
@@ -50,7 +50,7 @@ class AircraftTest extends TestCase
                             ->where('id', 2)
                             ->where('name', 'Piper')
                             ->where('price', 20000)
-                            ->where('max_duration', 60)
+                            ->where('max_duration', '1h')
                     )
             );
     }
@@ -69,7 +69,7 @@ class AircraftTest extends TestCase
                     ->where('id', 1)
                     ->where('name', 'Cessna')
                     ->where('price', 10000)
-                    ->where('max_duration', 120)
+                    ->where('max_duration', '2h')
                 )
             );
     }
