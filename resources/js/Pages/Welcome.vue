@@ -1,9 +1,7 @@
 <script setup>
-import { Head, Link } from '@inertiajs/inertia-vue3';
+import Layout from '@/Components/Layout'
 </script>
 
 <template>
-    <Head title="Welcome" />
-
-    <div class="p-8 bg-gray-100">Welcome nerds!</div>
+  <Layout title="Welcome">Main content</Layout>
 </template>

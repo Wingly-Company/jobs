@@ -9,7 +9,6 @@ If you want to join the engineering team, you will most likely have to complete 
 - Copy the .env.example to .env file 
 - Setup your database
 - Run `php artisan migrate:fresh --seed`
-- Do one commit per challenge 
 
 ## Pointers
 
@@ -22,11 +21,6 @@ Please also note that:
 
 This repo contains the basic setup for a Laravel & Inertia.js application. It uses Vue 3 for the frontend and Tailwind CSS for styling.   
 There is some boilerplate code, to help you get started but feel free to tweak it as you see fit.  
-
-## Challenges
-
-- [Full-Stack developer](https://github.com/Wingly-Company/jobs/tree/master/docs/fullstack.md)
-- [Senior developer](https://github.com/Wingly-Company/jobs/tree/master/docs/senior.md)
 
 
 
