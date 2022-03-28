@@ -10,7 +10,7 @@ class Search
     public function handle(Builder $builder, Closure $next): Builder
     {
         if (request()->has('search')) {
-            $builder ->where('name', 'like', '%'.request('search').'%');
+            $builder->where('name', 'like', '%'.request('search').'%');
         }
 
         return $next($builder);
