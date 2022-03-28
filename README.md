@@ -53,7 +53,7 @@ The airclub now wants their money. We decide to take a 30% commission on the ren
 The commission is split like this:
 
 - 25% goes to the insurance
-- 5€ goes to the airport to cover the landing fees
+- 1€/hour goes to the airport 
 - the rest goes to us
 
 Compute the amount that belongs to the insurance, to the airport and to us.
